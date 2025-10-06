@@ -6,9 +6,11 @@ But Microsoft also has a lot of free tools available for us to customize the ins
 
 I did a series on YouTube called "Window Cleaning," where I walked viewers through the various ways that we can customize the Windows 11 installation image, create unattend.xml files, and additionally customize an image using Audit mode. This repo holds the various files I used in the final start-to-finish video, containing all the commands and tweaks I would normally employ.
 
+The original videos were done with the 24H2 version of Windows 11, but obviously things keep being updated as time goes on! I'm tagging each "generation" of these files with the version I used them on. So, for example, the "24H2" tag has all the files for the original 24H2 release used in the videos! Once I have all the tweaks I want dialed in for 25H2, I'll tag the repo accordingly.
+
 Steps to recreate the result:
 
-1. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) (current version is 24H2).
+1. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) (current version is 25H2).
 2. Extract the install.wim file.
    - Also extract your desired installation for simplicity! I use Windows 11 Pro.
 3. Mount the install.wim.
