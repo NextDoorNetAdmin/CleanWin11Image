@@ -35,7 +35,7 @@ Steps to recreate the result:
 
 ## Credits
 
-Deprovisioning and registry insertions thanks to [https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
+Deprovisioning and registry insertions thanks to [https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)  
 Additional registry insertions thanks to [https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
 
 Inspiration for some of the unattend.xml entries are thanks to [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)

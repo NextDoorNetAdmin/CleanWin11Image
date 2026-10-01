@@ -27,7 +27,6 @@ reg add HKLM\zNTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryMa
 reg add HKLM\zNTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v SubscribedContent-353696Enabled /t REG_DWORD /d 0 /f
 reg add HKLM\zNTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v SystemPaneSuggestionsEnabled /t REG_DWORD /d 0 /f
 reg delete HKLM\zNTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\Subscriptions /f
-reg delete HKLM\zNTUSER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SuggestedApps /f
 reg add HKLM\zSOFTWARE\Microsoft\PolicyManager\current\device\Start /v ConfigureStartPins /t REG_SZ /d "{pinnedList: [{}]}" /f
 reg add HKLM\zSOFTWARE\Policies\Microsoft\PushToInstall /v DisablePushToInstall /t REG_DWORD /d 1 /f
 reg add HKLM\zSOFTWARE\Policies\Microsoft\MRT /v DontOfferThroughWUAU /t REG_DWORD /d 1 /f
@@ -92,7 +91,7 @@ REM Disable AI Recall / AI Fabric Service
 reg add HKLM\zSOFTWARE\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /t REG_DWORD /d 1 /f
 reg add HKLM\zSOFTWARE\Policies\Microsoft\Windows\WindowsAI /v AllowRecallEnablement /t REG_DWORD /d 0 /f
 reg add HKLM\zSOFTWARE\Policies\Microsoft\Windows\WindowsAI /v TurnOffSavingSnapshots /t REG_DWORD /d 1 /f
-reg add HKLM\zSYSTEM\CurrentControlSet\Services\WSAIFabricSvc /v Start /t REG_DWORD /d 3 /f
+reg add HKLM\zSYSTEM\ControlSet001\Services\WSAIFabricSvc /v Start /t REG_DWORD /d 3 /f
 
 REM Unload the registry hives
 reg unload HKLM\zNTUSER
