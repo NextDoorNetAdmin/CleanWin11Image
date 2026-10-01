@@ -10,7 +10,7 @@ The original videos were done with the 24H2 version of Windows 11, but obviously
 
 Steps to recreate the result:
 
-1. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) (current version is 25H2).
+1. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) (current version is 26H2).
 2. Extract the install.wim file.
    - Also extract your desired installation for simplicity! I use Windows 11 Pro.
 3. Mount the install.wim.
@@ -36,5 +36,6 @@ Steps to recreate the result:
 ## Credits
 
 Deprovisioning and registry insertions thanks to [https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
+Additional registry insertions thanks to [https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
 
 Inspiration for some of the unattend.xml entries are thanks to [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
